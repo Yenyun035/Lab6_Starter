@@ -1,0 +1,290 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.recipetineats.com/#organization",
+            "name": "RecipeTin Eats",
+            "url": "https://www.recipetineats.com/",
+            "sameAs": [
+                "https://www.facebook.com/RecipeTinEats",
+                "http://instagram.com/recipe_tin",
+                "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+                "https://www.youtube.com/c/recipetineats",
+                "http://www.pinterest.com/recipetin/"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://www.recipetineats.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                "width": 2591,
+                "height": 347,
+                "caption": "RecipeTin Eats"
+            },
+            "image": {
+                "@id": "https://www.recipetineats.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.recipetineats.com/#website",
+            "url": "https://www.recipetineats.com/",
+            "name": "RecipeTin Eats",
+            "description": "Fast Prep, Big Flavours",
+            "publisher": {
+                "@id": "https://www.recipetineats.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.recipetineats.com/easy-tiramisu/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg",
+            "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg",
+            "width": 900,
+            "height": 1260,
+            "caption": "Close up of a slice of Tiramisu on a white plate, ready to be eaten"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.recipetineats.com/easy-tiramisu/#webpage",
+            "url": "https://www.recipetineats.com/easy-tiramisu/",
+            "name": "Tiramisu (Chef recipe!) | RecipeTin Eats",
+            "isPartOf": {
+                "@id": "https://www.recipetineats.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.recipetineats.com/easy-tiramisu/#primaryimage"
+            },
+            "datePublished": "2019-08-02T00:00:00+00:00",
+            "dateModified": "2020-11-13T02:00:44+00:00",
+            "description": "This easy Tiramisu is simple to make - especially when you make it the traditional Italian way! A Chef recipe, this is rich and luxurious, yet light!",
+            "breadcrumb": {
+                "@id": "https://www.recipetineats.com/easy-tiramisu/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://www.recipetineats.com/easy-tiramisu/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.recipetineats.com/easy-tiramisu/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.recipetineats.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Sweet",
+                    "item": "https://www.recipetineats.com/category/dessert-recipes/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Tiramisu (Chef recipe!)"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://www.recipetineats.com/easy-tiramisu/#article",
+            "isPartOf": {
+                "@id": "https://www.recipetineats.com/easy-tiramisu/#webpage"
+            },
+            "author": {
+                "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+            },
+            "headline": "Tiramisu (Chef recipe!)",
+            "datePublished": "2019-08-02T00:00:00+00:00",
+            "dateModified": "2020-11-13T02:00:44+00:00",
+            "wordCount": 2033,
+            "commentCount": 517,
+            "publisher": {
+                "@id": "https://www.recipetineats.com/#organization"
+            },
+            "image": {
+                "@id": "https://www.recipetineats.com/easy-tiramisu/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg",
+            "articleSection": [
+                "All Thanksgiving Recipes",
+                "Christmas Desserts",
+                "Easter",
+                "Iconic Dishes",
+                "Italian Recipes",
+                "Sweet",
+                "Thanksgiving",
+                "Thanksgiving Desserts",
+                "Thanksgiving Recipes"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://www.recipetineats.com/easy-tiramisu/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+            "name": "Nagi",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://www.recipetineats.com/#personlogo",
+                "inLanguage": "en-US",
+                "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                "caption": "Nagi"
+            },
+            "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+            "sameAs": [
+                "http:////www.recipetineats.com/about-me/"
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Easy Tiramisu (Chef Recipe)",
+            "author": {
+                "@type": "Person",
+                "name": "Nagi | RecipeTin Eats"
+            },
+            "description": "Recipe video above. You will be amazed how silky rich and yet LIGHT this Tiramisu tastes! This is slightly adapted from this recipe by Vanessa Martin, a well regarded Australian-Italian chef. This is a traditional recipe made using raw eggs that are not cooked or tempered, and with only mascarpone - no cream! You just can&#x27;t achieve the same mouthfeel if you use normal cream. :) (Read in post or note about raw egg concerns)",
+            "datePublished": "2019-08-02T10:00:00+00:00",
+            "image": [
+                "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg",
+                "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg?w=500&h=500&crop=1",
+                "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg?w=500&h=375&crop=1",
+                "https://www.recipetineats.com/wp-content/uploads/2016/03/Tiramisu_5.jpg?w=480&h=270&crop=1"
+            ],
+            "recipeYield": [
+                "6",
+                "6 -8"
+            ],
+            "prepTime": "PT30M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "3  eggs (, yolks and whites separated)",
+                "1/2 cup (110g)  caster sugar (superfine sugar)",
+                "1/2 tsp vanilla extract",
+                "8 oz / 250g   mascarpone (, good brand (Important - read Note 1))",
+                "1 1/4 cups black coffee (, hot and strong! (Note 2))",
+                "2 tbsp (or more!)   Frangelico or Kahlua (, or other liquor of choice (skip for alcohol free))",
+                "6.5 oz / 200g (24 - 30)   lady fingers, pavesini or savoiardi biscuits  ((Note 3))",
+                "Cocoa (, for dusting)"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Beat yolks and sugar in stand mixer or electric beater on speed 6 to 7 for 10 minutes or until it changes from yellow to pale yellow (almost white), and is thick (see video for consistency).",
+                    "name": "Beat yolks and sugar in stand mixer or electric beater on speed 6 to 7 for 10 minutes or until it changes from yellow to pale yellow (almost white), and is thick (see video for consistency).",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add vanilla and mascarpone, beat until just combined and smooth. Transfer mixture to a bowl, set aside.",
+                    "name": "Add vanilla and mascarpone, beat until just combined and smooth. Transfer mixture to a bowl, set aside.",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Clean bowl and whisk. Add egg whites and beat until it&#x27;s stiff (3 minutes on speed 7, should be all white foam, see video!)",
+                    "name": "Clean bowl and whisk. Add egg whites and beat until it&#x27;s stiff (3 minutes on speed 7, should be all white foam, see video!)",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add 1/2 the cream mixture into the egg whites. Gently fold through. When most incorporated, add the remaining cream mixture and fold through until just combined - don&#x27;t bash out all the air in the egg whites! (Note 4)",
+                    "name": "Add 1/2 the cream mixture into the egg whites. Gently fold through. When most incorporated, add the remaining cream mixture and fold through until just combined - don&#x27;t bash out all the air in the egg whites! (Note 4)",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Mix coffee and liquor together. Quickly dip biscuits in and line the bottom of a 8\u201d/20cm square dish. (See video or step photos above to see how I arrange them).",
+                    "name": "Mix coffee and liquor together. Quickly dip biscuits in and line the bottom of a 8\u201d/20cm square dish. (See video or step photos above to see how I arrange them).",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Spread over half the cream, then top with another layer of coffee dipped biscuits.",
+                    "name": "Spread over half the cream, then top with another layer of coffee dipped biscuits.",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Spread with remaining cream.",
+                    "name": "Spread with remaining cream.",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-6"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Cover, refrigerate for at least 4 - 5 hours, preferably overnight",
+                    "name": "Cover, refrigerate for at least 4 - 5 hours, preferably overnight",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-7"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Dust with cocoa powder just before serving - either before you cut or after placing onto serving plates.",
+                    "name": "Dust with cocoa powder just before serving - either before you cut or after placing onto serving plates.",
+                    "url": "https://www.recipetineats.com/easy-tiramisu/#wprm-recipe-25388-step-0-8"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.93",
+                "ratingCount": "118"
+            },
+            "recipeCategory": [
+                "Dessert"
+            ],
+            "recipeCuisine": [
+                "Italian"
+            ],
+            "keywords": "tiramisu, tiramisu cream, traditional tiramisu",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "servingSize": "127 g",
+                "calories": "306 kcal",
+                "carbohydrateContent": "32.2 g",
+                "proteinContent": "5.9 g",
+                "fatContent": "15.8 g",
+                "saturatedFatContent": "8.3 g",
+                "cholesterolContent": "121 mg",
+                "sodiumContent": "88 mg",
+                "sugarContent": "18.7 g"
+            },
+            "@id": "https://www.recipetineats.com/easy-tiramisu/#recipe",
+            "isPartOf": {
+                "@id": "https://www.recipetineats.com/easy-tiramisu/#article"
+            },
+            "mainEntityOfPage": "https://www.recipetineats.com/easy-tiramisu/#webpage"
+        }
+    ]
+}
